@@ -1,0 +1,41 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Unused terminals:
+
+    EQUALS
+
+Grammar
+
+Rule 0     S' -> statement
+Rule 1     statement -> CHEPE LPAREN expression RPAREN
+Rule 2     statement -> CHEPE LPAREN ChepeVar RPAREN
+Rule 3     expression -> VARIABLE
+Rule 4     expression -> STRING
+Rule 5     expression -> expression PLUS term
+Rule 6     expression -> term
+Rule 7     term -> term TIMES factor
+Rule 8     term -> factor
+Rule 9     factor -> NUMBER
+Rule 10    factor -> LPAREN expression RPAREN
+
+Terminals, with rules where they appear
+
+CHEPE                : 1 2
+EQUALS               : 
+LPAREN               : 1 2 10
+NUMBER               : 9
+PLUS                 : 5
+RPAREN               : 1 2 10
+STRING               : 4
+TIMES                : 7
+VARIABLE             : 3
+error                : 
+
+Nonterminals, with rules where they appear
+
+ChepeVar             : 2
+expression           : 1 5 10
+factor               : 7 8
+statement            : 0
+term                 : 5 6 7
+
