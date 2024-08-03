@@ -1,6 +1,0 @@
-Chepe("Test")
-x = 5
-y = 7
-Chepe(x)
-Chepe(y)
-Chepe("Funciona")

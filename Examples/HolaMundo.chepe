@@ -1,0 +1,33 @@
+ChepeMain{
+
+	Chepe("Hola Chepe\n\n");
+
+	ChepeInt Windows = 23;
+	ChepeFloat Linux = 451.254;
+
+
+	Chepe("Es acaso chepe un loquito del centro?\n");
+	ChepeIf(Windows > Linux){
+		Chepe("???");
+	}ChepElse{
+		Chepe("Tal cual hermano\n\n");
+	}
+
+	ChepeInt chepe;
+	ChepeInt jose;
+
+	ChepeFor(chepe=0;chepe<=5;chepe++){
+		ChepeFor(jose=0;jose<=chepe;jose++){
+			Chepe(" chepe ");
+		}
+		Chepe("\n");
+	}
+
+	
+
+	Chepe("\n\n\n");
+
+	Chepause;
+
+	ChepeFin;
+}

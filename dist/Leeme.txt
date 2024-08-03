@@ -1,9 +1,0 @@
-Nomas jala operaciones aritmeticas simples y strings, a traves de su unica funcion, que es un print basicamente
-
-Lista de comandos
-
->Chepe() >> Es un print() 
-
-
-Version 1.0
-15-04-24
