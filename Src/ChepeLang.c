@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
             return 0;
         }
         if (strcmp(argv[1], "-r") == 0) {
-            printf("\n Necesario tener instalado gcc a través de MinGW/n/n https://sourceforge.net/projects/mingw/");
+            printf("\n Necesario tener instalado gcc a traves de MinGW\n\n https://sourceforge.net/projects/mingw/ \n\n");
             return 0;
         }
     }
